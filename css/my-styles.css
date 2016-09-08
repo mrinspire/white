@@ -1,0 +1,65 @@
+/* CSS Document */
+
+	/* Start Body */
+body {
+}
+		/* Start Header */
+header {
+} 
+		/* End Header */          
+
+#main-header[role="banner"] {
+}
+		/* End Main-header */          
+
+		/* Start Nav */  
+nav[role="navigation"] {
+}
+		/* End Nav */          
+
+		/* Start Main */
+main[role="main"] {
+}
+		/* End Main */          
+
+			/* Start Article */
+article {
+}
+            /* End Article */
+ 
+                /* Start Section */
+section {
+}
+                /* End Section */
+            
+
+		/* Aside Section */
+aside {
+}
+       /* End Aside Section */
+
+		/* Start Figure Section */
+figure {
+}
+
+figcaption {
+} 
+        /* End Figure Section */
+
+		/* Start Cite Section */
+cite {
+}
+   /* Nd Cite Section */
+
+		/* Start Address Section */
+address {
+}       /* End Address Section */
+
+
+
+		/* Start Footer Section */
+footer {
+}        /* End Footer Section */
+
+
+
