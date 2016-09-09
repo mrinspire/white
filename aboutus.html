@@ -26,22 +26,24 @@
 	<!-- Start Body -->
 	<body>
 		<!-- Start Header -->
-		<header id="main-header" role="banner">
+		<header itemscope itemtype="http://schema.org/LocalBusiness" id="main-header" role="banner"> 
 		<!-- InstanceBeginEditable name="header" -->
-		  <h1>About Us</h1>
+        
+		  <h1><span itemprop="name">About Us</span></h1>
+				<p><span itemprop="description">Our company history and more</span></p>
           
         <!-- InstanceEndEditable -->
 		</header>
         <!-- End Header -->
 
 		<!-- Start Nav -->  
-		<nav role="navigation">
+		<nav itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
         	<ul>
             	<!-- InstanceBeginEditable name="navlinks" -->
-				<li><a href="mainpage.html">Home</a></li>
-                <li id="active"><a href="aboutus.html">About Us</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
+				<li itemprop="name"><a itemprop="url" href="mainpage.html"><span>Home</span></a></li>
+                <li itemprop="name" id="active"><a itemprop="url" href="aboutus.html">About Us</a></li>
+                <li itemprop="name"><a itemprop="url" href="reviews.html">Reviews</a></li>
+                <li itemprop="name"><a itemprop="url" href="contactus.html">Contact Us</a></li>
                 <!-- InstanceEndEditable -->
 			</ul>                
 		</nav> 
