@@ -26,7 +26,7 @@
 	<!-- Start Body -->
 	<body>
 		<!-- Start Header -->
-		<header itemscope itemtype="http://schema.org/LocalBusiness" id="main-header" role="banner"> 
+		<header itemscope itemtype="http://schema.org/LocalBusiness" id="main-header"> 
 		<!-- InstanceBeginEditable name="header" -->
 
 		  <h1><span itemprop="name">Contact Us</span></h1>
@@ -37,7 +37,8 @@
         <!-- End Header -->
 
 		<!-- Start Nav -->  
-		<nav itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+		<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <h3>Site Navigation</h3>
         	<ul>
             	<!-- InstanceBeginEditable name="navlinks" -->
 				<li itemprop="name"><a itemprop="url" href="mainpage.html"><span>Home</span></a></li>
@@ -50,7 +51,7 @@
         <!-- End Nav -->
 
 		<!-- Start Main -->
-		<main role="main" itemscope itemtype="http://schema.org/Recipe">
+		<main itemscope itemtype="http://schema.org/Recipe">
 		<!-- InstanceBeginEditable name="main" -->
 
 			<!-- Start Article -->
@@ -61,10 +62,10 @@
 				<p>We would love to hear from you. You can contact our main Faithful Fruit Factory at the following address:</p>
 
                 <!-- Start Address Section -->
-                <address>
-                Faithful Fruit Factory<br>
-                Box 54900, FaithfulFruitland<br>
-                San Fernando, CA 91234
+                <address itemscope itemtype="http://schema.org/PostalAddress">
+                <span itemprop="name">Faithful Fruit Factory</span><br>
+                <span itemprop="postOfficeBoxNumber">Box 54900, FaithfulFruitland</span><br>
+                <span itemprop="addressLocality">San Fernando</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">91234</span>
                 </address> 
                 <!-- End Address Section -->              
 
@@ -74,7 +75,7 @@
 
 
 		<!-- Start Footer Section -->
-		<footer id="page-footer" role="contentinfo">
+		<footer id="page-footer">
 			<p>Posted by: Lee White</p>
 			<p>Faithful Fruit Factory - Lee White: <a href="mailto:lwhite@fffactory.com">
 		  lwhite@fffactory.com</a>.</p>
