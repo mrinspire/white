@@ -51,7 +51,7 @@
         <!-- End Nav -->
 
 		<!-- Start Main -->
-		<main itemscope itemtype="http://schema.org/Recipe">
+		<main>
 		<!-- TemplateBeginEditable name="main" -->
 
 			<!-- Start Article -->
@@ -154,16 +154,20 @@
 		<p>Do not forget to buy <mark>pomelo</mark> today.</p> 
         <!-- End Mark Section -->
 
-		<!-- End Main -->          
+
 		<!-- TemplateEndEditable -->
 		</main> 
-
+		<!-- End Main -->
 
 		<!-- Start Footer Section -->
-		<footer id="page-footer">
-			<p>Posted by: Lee White</p>
-			<p>Faithful Fruit Factory - Lee White: <a href="mailto:lwhite@fffactory.com">
-		  lwhite@fffactory.com</a>.</p>
+		<footer itemscope itemtype="http://schema.org/CreativeWork" id="page-footer">
+			<div>
+            <p>Posted by: Lee White</p>
+			<p><span itemprop="name">Faithful Fruit Factory</span></p>
+            </div>
+            <div>
+          <p>© <span itemprop="copyrightYear">2016</span> <span itemprop="URL">faithfulfruitfactory.com</span> Inc.</p>
+          </div>
 		</footer> 
         <!-- End Footer Section -->
 
