@@ -26,29 +26,32 @@
 	<!-- Start Body -->
 	<body>
 		<!-- Start Header -->
-		<header id="main-header" role="banner">
+		<header itemscope itemtype="http://schema.org/LocalBusiness" id="main-header"> 
 		<!-- TemplateBeginEditable name="header" -->
-		  <h1>Pummelo (Pomelo, Pumelo)</h1>
-				<p>Forebear of the modern grapefruit</p>        
+
+		  <h1><span itemprop="name">Faithful Fruit Factory</span></h1>
+				<p><span itemprop="description">Forebear of the modern grapefruit</span></p>
+
         <!-- TemplateEndEditable -->
 		</header>
         <!-- End Header -->
 
 		<!-- Start Nav -->  
-		<nav role="navigation">
+		<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <h3>Site Navigation</h3>
         	<ul>
             	<!-- TemplateBeginEditable name="navlinks" -->
-				<li id="active"><a href="../index.html">Home</a></li>
-                <li><a href="../aboutus.html">About Us</a></li>
-                <li><a href="../reviews.html">Reviews</a></li>
-                <li><a href="../contactus.html">Contact Us</a></li>
+				<li itemprop="name" id="active"><a itemprop="url" href="../index.html"><span itemprop="name">Home</span></a></li>
+                <li itemprop="name"><a itemprop="url" href="../aboutus.html"><span itemprop="name">About Us</span></a></li>
+                <li itemprop="name"><a itemprop="url" href="../reviews.html"><span itemprop="name">Reviews</span></a></li>
+                <li itemprop="name"><a itemprop="url" href="../contactus.html"><span itemprop="name">Contact Us</span></a></li>
                 <!-- TemplateEndEditable -->
 			</ul>                
 		</nav> 
         <!-- End Nav -->
 
 		<!-- Start Main -->
-		<main role="main" itemscope itemtype="http://schema.org/Recipe">
+		<main itemscope itemtype="http://schema.org/Recipe">
 		<!-- TemplateBeginEditable name="main" -->
 
 			<!-- Start Article -->
@@ -157,7 +160,7 @@
 
 
 		<!-- Start Footer Section -->
-		<footer id="page-footer" role="contentinfo">
+		<footer id="page-footer">
 			<p>Posted by: Lee White</p>
 			<p>Faithful Fruit Factory - Lee White: <a href="mailto:lwhite@fffactory.com">
 		  lwhite@fffactory.com</a>.</p>
