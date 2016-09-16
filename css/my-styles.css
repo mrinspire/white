@@ -1,5 +1,8 @@
 /* CSS Document */
 
+.no-inputtypes .box { color: red; }
+.inputtypes .box { color: green; }
+
 	/* Start Body */
 body {
 }
