@@ -6,12 +6,14 @@
 		<title>Contact Us</title>
         
 		<meta name="description" content="The pummelo is the largest citrus fruit, with an essentially milder, gentler,  sweeter taste than the grapefruit">        
+  
 		<!-- InstanceEndEditable -->
         
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" type="text/css" href="css/my-styles.css">
         
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
         <script src="scripts/myscripts.js"></script>
                 
@@ -20,7 +22,15 @@
 		</script><[end if]-->
 
     <!-- InstanceBeginEditable name="head" -->
-    <!-- InstanceEndEditable -->
+
+<script type="text/javascript" src="scripts/modernizr-complete-build.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    if (!Modernizr.input.autofocus) {
+      $("input[autofocus]").focus(); // give focus to whichever element has the autofocus attribute
+    }
+  });
+</script>    <!-- InstanceEndEditable -->
 	</head>
 
 	<!-- Start Body -->
@@ -61,6 +71,90 @@
 			
 				<p>We would love to hear from you. You can contact our main Faithful Fruit Factory at the following address:</p>
 
+            <section>
+            
+            <h3>Contact Us Form</h3>
+            
+                <form method="post" action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+    
+                    <fieldset>
+                        <legend>Personal information:</legend>
+                        First name: 
+                        <input type="text" name="firstname" placeholder="First name" required autofocus>
+                        <br><br>
+                        Last name: 
+                        <input type="text" name="lastname"  placeholder="Last name" required><br><br>
+        
+                        <input type="radio" name="gender" value="male" checked> Male<br>
+                        <input type="radio" name="gender" value="female"> Female<br>
+                        
+                    </fieldset>
+                    <br>
+    
+                    <fieldset>
+                        <legend>Contact information:</legend>                
+                        E-mail:
+                        <input type="email" name="email">
+                        <br><br>
+                        
+                        Time:
+                        <input type="time" name="usr_time" value="01:30" step="3600">
+                        <br><br>
+                        
+                        Date:
+                        <input type="date" value="2016-09-13" data-polyfill="none">
+                        <br><br>
+                        
+                        Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+                    
+                    </fieldset>
+                    
+                    <br>
+    
+                    <fieldset>
+                        <legend>A Little About Youself:</legend>
+                        
+                        <input type="checkbox" name="pies1" value="Pies"> I like pomelo fruit<br>
+                        <input type="checkbox" name="pies2" value="Cake"> I like citrus fruit<br>
+                        <input type="checkbox" name="pies3" value="Cake"> I like any kind of fruit
+                        
+                        <br><br>
+        
+                        Favorite Fruit: 
+                        <select name="fruits">
+                        <option value="apple">Apple</option>
+                        <option value="lemon">Lemon</option>
+                        <option value="orange">Orange</option>
+                        <option value="peach" selected>Peach</option>
+                        <option value="pear">Pear</option>
+                        <option value="pomelo">Pomelo</option>
+                        </select>
+                        <br><br>
+                        
+                        Browser List Hints: 
+                        <input list="browsers">
+                        <datalist id="browsers">
+                        <option value="Internet Explorer"></option>
+                        <option value="Firefox"></option>
+                        <option value="Chrome"></option>
+                        <option value="Opera"></option>
+                        <option value="Safari"></option>
+                        </datalist>
+                        <br><br>
+        
+                        <textarea name="message" rows="10" cols="30">Comments
+                        </textarea>
+                    </fieldset>
+                    <br><br>
+                                                    
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </form> 
+            
+            </section>
+
+				<p>For more information write to address:</p>
+
                 <!-- Start Address Section -->
                 <address itemscope itemtype="http://schema.org/PostalAddress">
                 <span itemprop="name">Faithful Fruit Factory</span><br>
@@ -69,11 +163,12 @@
                 <span itemprop="addressCountry">United States</span>
                 </address> 
                 <!-- End Address Section -->              
+            
 
 			</article>
             <!-- End Article -->
-        <br>
-<!-- End Main -->          
+            
+
 		<!-- InstanceEndEditable -->
 		</main> 
 		<!-- End Main -->
