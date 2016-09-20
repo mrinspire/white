@@ -3,66 +3,110 @@
 .no-inputtypes .box { color: red; }
 .inputtypes .box { color: green; }
 
-	/* Start Body */
+/* Start Body */
 body {
 }
-		/* Start Header */
+/* Start Header */
 header {
 } 
-		/* End Header */          
+/* End Header */          
 
-#main-header[role="banner"] {
+#main-header {
 }
-		/* End Main-header */          
+/* End Main-header */          
 
-		/* Start Nav */  
-nav[role="navigation"] {
+/* Start Nav */  
+nav {
 }
-		/* End Nav */          
+/* End Nav */          
 
-		/* Start Main */
-main[role="main"] {
+/* Start Main */
+main {
 }
-		/* End Main */          
+/* End Main */          
 
-			/* Start Article */
+/* Start Article */
 article {
 }
-            /* End Article */
- 
-                /* Start Section */
+/* End Article */
+
+/* Start Section */
 section {
 }
-                /* End Section */
-            
+/* End Section */
 
-		/* Aside Section */
+
+/* Aside Section */
 aside {
 }
-       /* End Aside Section */
+/* End Aside Section */
 
-		/* Start Figure Section */
+/* Start Figure Section */
 figure {
 }
 
 figcaption {
 } 
-        /* End Figure Section */
+/* End Figure Section */
 
-		/* Start Cite Section */
+/* Start Blockquote Section */
+blockquote {
+}
+/* End Blockquote Section */
+
+/* Start Cite Section */
 cite {
 }
-   /* Nd Cite Section */
+/* End Cite Section */
 
-		/* Start Address Section */
+/* Start Author Section */
+.author {
+}
+/* End Author Section */
+
+/* Start Address Section */
 address {
-}       /* End Address Section */
+}
+/* End Address Section */
 
-
-
-		/* Start Footer Section */
+/* Start Footer Section */
 footer {
-}        /* End Footer Section */
+}
+#page-footer {
+}
+footer .to-top {
+}
+footer .right-col {
+}
+footer .leftt-col {
+}
+/* End Footer Section */
 
+/* Start Fan Form */
 
+.fan-form {
+}
+.fan-fieldset {
+}
+.fan-legend {
+}
+.fan-label {
+}
+.fan-input {
+}
+.fan-input-checkbox {
+}
+.fan-select {
+}
+.fan-input-list {
+}
+.fan-datalist {
+}
+.fan-textarea {
+}
+.fan-submit {
+}
+.fan-reset {
+}
+/* End Fan Form */
 
