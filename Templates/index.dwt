@@ -12,11 +12,12 @@
 
 		<link rel="stylesheet" type="text/css" href="../css/my-styles.css">
         
+		<!-- Pulls in Javascript support from Google -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        <script src="../scripts/myscripts.js"></script>
+        <script src="../header-scripts/myscripts.js"></script>
                 
-        <!--[if lt IE 9] Adds HTML5 element support for earlier versions of IE-->
+        <!-- Adds HTML5 element support for earlier versions of IE 9 and below -->
 		<!--[if lt IE 9]><script src"http://html5shim.googlecode.com/svn/trunk/html5.js">
 		</script><[end if]-->
 
@@ -29,6 +30,7 @@
 
 	<!-- Start Body -->
 	<body>
+    <span id="totop"></span>
 		<!-- Start Header -->
 		<header itemscope itemtype="http://schema.org/LocalBusiness" id="main-header"> 
 		<!-- TemplateBeginEditable name="header" -->
@@ -128,35 +130,40 @@
 		</aside>
         <!-- End Aside Section -->
 
-		<!-- Start Figure Section -->
-		<figure>
-			<img src="../img_pulpit.jpg" alt="The Pomelo Fruit" width="304" height="228">
-			<figcaption>Fruity. - A view of the pomelo fruit info.</figcaption>
-		</figure> 
-        <!-- End Figure Section -->
-
-		<!-- Start Cite Section -->
-		<p><cite>The Pomela Facts</cite> by Madelon Boschict. Created in 1975.</p> 
-        <!-- Nd Cite Section -->
-
-		<!-- Start Address Section -->
-		<address>
-		Written by <a href="mailto:lwhite@fffactory.com">Lee White</a>.<br>
-		Visit us at:<br>
-		faithfulfruitfactory.com<br>
-		Box 54900, FaithfulFruitland<br>
-		USA
-		</address> 
-        <!-- End Address Section -->
-
-		<!-- Start Small Section -->
-		<p>faithfulfruitfactory.com - the world's best fruit factory development site.</p>
-		<p><small>Copyright 2016-3016 by Copyrightland Stock</small></p> 
-        <!-- End Small Section -->
-
-		<!-- Start Mark Section -->
-		<p>Do not forget to buy <mark>pomelo</mark> today.</p> 
-        <!-- End Mark Section -->
+		<!-- Start Section -->
+		<section>
+        	<h2>Pomelo Fruit Info</h2>
+            <!-- Start Figure Section -->
+            <figure>
+                <img src="../img_pulpit.jpg" alt="The Pomelo Fruit" width="304" height="228">
+                <figcaption>Fruity. - A view of the pomelo fruit info.</figcaption>
+            </figure> 
+            <!-- End Figure Section -->
+    
+            <!-- Start Cite Section -->
+            <p><cite>The Pomela Facts</cite> by Madelon Boschict. Created in 1975.</p> 
+            <!-- Nd Cite Section -->
+    
+            <!-- Start Address Section -->
+            <address>
+            Written by <a href="mailto:lwhite@fffactory.com">Lee White</a>.<br>
+            Visit us at:<br>
+            faithfulfruitfactory.com<br>
+            Box 54900, FaithfulFruitland<br>
+            USA
+            </address> 
+            <!-- End Address Section -->
+    
+            <!-- Start Small Section -->
+            <p>faithfulfruitfactory.com - the world's best fruit factory development site.</p>
+            <p><small>Copyright 2016-3016 by Copyrightland Stock</small></p> 
+            <!-- End Small Section -->
+    
+            <!-- Start Mark Section -->
+            <p>Do not forget to buy <mark>pomelo</mark> today.</p> 
+            <!-- End Mark Section -->
+		</section> 
+        <!-- End Section -->        
 
 
 		<!-- TemplateEndEditable -->
@@ -165,15 +172,22 @@
 
 		<!-- Start Footer Section -->
 		<footer itemscope itemtype="http://schema.org/CreativeWork" id="page-footer">
-			<div>
+        	<p class="to-top"><a href="#totop">back to top</a></p>
+			<div class="right-col">
             <p>Posted by: Lee White</p>
 			<p><span itemprop="name">Faithful Fruit Factory</span></p>
             </div>
-            <div>
-          <p>© <span itemprop="copyrightYear">2016</span> <span itemprop="URL">faithfulfruitfactory.com</span> Inc.</p>
+            <div class="left-col">
+          <p><small>All content &copy; copyright <span itemprop="copyrightYear">2016</span> <span itemprop="URL">faithfulfruitfactory.com</span> Inc.</small></p>
           </div>
 		</footer> 
         <!-- End Footer Section -->
+
+<!-- Start Footer Javascripts -->
+<!-- TemplateBeginEditable name="FooterJavascripts" -->
+
+<!-- TemplateEndEditable -->
+<!-- End Footer Javascripts -->
 
 	</body>
 </html>
