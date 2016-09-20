@@ -12,11 +12,12 @@
 
 		<link rel="stylesheet" type="text/css" href="css/my-styles.css">
         
+		<!-- Pulls in Javascript support from Google -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        <script src="scripts/myscripts.js"></script>
+        <script src="header-scripts/myscripts.js"></script>
                 
-        <!--[if lt IE 9] Adds HTML5 element support for earlier versions of IE-->
+        <!-- Adds HTML5 element support for earlier versions of IE 9 and below -->
 		<!--[if lt IE 9]><script src"http://html5shim.googlecode.com/svn/trunk/html5.js">
 		</script><[end if]-->
 
@@ -26,6 +27,7 @@
 
 	<!-- Start Body -->
 	<body>
+    <span id="totop"></span>
 		<!-- Start Header -->
 		<header itemscope itemtype="http://schema.org/LocalBusiness" id="main-header"> 
 		<!-- InstanceBeginEditable name="header" -->
@@ -304,15 +306,22 @@
 
 		<!-- Start Footer Section -->
 		<footer itemscope itemtype="http://schema.org/CreativeWork" id="page-footer">
-			<div>
+        	<p class="to-top"><a href="#totop">back to top</a></p>
+			<div class="right-col">
             <p>Posted by: Lee White</p>
 			<p><span itemprop="name">Faithful Fruit Factory</span></p>
             </div>
-            <div>
-          <p>© <span itemprop="copyrightYear">2016</span> <span itemprop="URL">faithfulfruitfactory.com</span> Inc.</p>
+            <div class="left-col">
+          <p><small>All content &copy; copyright <span itemprop="copyrightYear">2016</span> <span itemprop="URL">faithfulfruitfactory.com</span> Inc.</small></p>
           </div>
 		</footer> 
         <!-- End Footer Section -->
+
+<!-- Start Footer Javascripts -->
+<!-- InstanceBeginEditable name="FooterJavascripts" -->
+
+<!-- InstanceEndEditable -->
+<!-- End Footer Javascripts -->
 
 	</body>
 <!-- InstanceEnd --></html>

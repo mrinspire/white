@@ -12,11 +12,12 @@
 
 		<link rel="stylesheet" type="text/css" href="css/my-styles.css">
         
+		<!-- Pulls in Javascript support from Google -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        <script src="scripts/myscripts.js"></script>
+        <script src="header-scripts/myscripts.js"></script>
                 
-        <!--[if lt IE 9] Adds HTML5 element support for earlier versions of IE-->
+        <!-- Adds HTML5 element support for earlier versions of IE 9 and below -->
 		<!--[if lt IE 9]><script src"http://html5shim.googlecode.com/svn/trunk/html5.js">
 		</script><[end if]-->
 
@@ -26,6 +27,7 @@
 
 	<!-- Start Body -->
 	<body>
+    <span id="totop"></span>
 		<!-- Start Header -->
 		<header itemscope itemtype="http://schema.org/LocalBusiness" id="main-header"> 
 		<!-- InstanceBeginEditable name="header" -->
@@ -62,7 +64,8 @@
 				
                 <p>We don't use artificial flavors. We use all natural ingredients. We feel that’s the best way to produce great tasting products.</p>
                 
-                <blockquote cite="http://myqoutes.lee.white.com/review.html">“Have you ever tasted real meals, created with real ingredients? There’s nothing better in my opinion to eat”
+                <blockquote cite="http://myqoutes.lee.white.com/review.html"><q>Have you ever tasted real meals, created with real ingredients? You haven't really lived until you have tasted something made with real ingredients.</q> 
+                <footer><cite><span class="author">Lee White</span> &#8212; There’s Nothing Better to Real Eating</cite></footer>
                 </blockquote>
                 
                 <cite>Lee White, Pomelo Party - Real Meals</cite>
@@ -114,15 +117,22 @@
 
 		<!-- Start Footer Section -->
 		<footer itemscope itemtype="http://schema.org/CreativeWork" id="page-footer">
-			<div>
+        	<p class="to-top"><a href="#totop">back to top</a></p>
+			<div class="right-col">
             <p>Posted by: Lee White</p>
 			<p><span itemprop="name">Faithful Fruit Factory</span></p>
             </div>
-            <div>
-          <p>© <span itemprop="copyrightYear">2016</span> <span itemprop="URL">faithfulfruitfactory.com</span> Inc.</p>
+            <div class="left-col">
+          <p><small>All content &copy; copyright <span itemprop="copyrightYear">2016</span> <span itemprop="URL">faithfulfruitfactory.com</span> Inc.</small></p>
           </div>
 		</footer> 
         <!-- End Footer Section -->
+
+<!-- Start Footer Javascripts -->
+<!-- InstanceBeginEditable name="FooterJavascripts" -->
+
+<!-- InstanceEndEditable -->
+<!-- End Footer Javascripts -->
 
 	</body>
 <!-- InstanceEnd --></html>
