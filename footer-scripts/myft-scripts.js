@@ -1,5 +1,20 @@
 
 
+
+/* Start Auto Focus fallback for all browsers */
+$(document).trigger('autofocus_ready');
+
+/* 
+Note: The starting script is in my header scripts:
+    $(document).bind('autofocus_ready', function() {
+      if (!("autofocus" in document.createElement("input"))) {
+        $("#firstname").focus();
+      }
+    });
+*/
+/* End Auto Focus fallback for all browsers */
+
+
 /* Javascript getElementById() Examples */
 /*
 var d = new Date();
