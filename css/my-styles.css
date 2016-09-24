@@ -1,43 +1,131 @@
 /* CSS Document */
 
-.no-inputtypes .box { color: red; }
-.inputtypes .box { color: green; }
 
 /* Start Body */
 body {
+	margin:0;
+	padding:0;
 }
+/* Start Page */
+#page {
+	font: 100% Georgia, "Times New Roman", Times, serif;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 50px;
+    text-align: left;
+    position: relative;
+    background: white;
+}
+/* End Page */
 /* Start Header */
 header {
-} 
+	float:left;
+	clear:both;
+	width:100%;
+	height:auto;
+	background: url(../images/Faithful-Fruit-Factory-Logo-02-w135.png) no-repeat;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 2px solid #7f7f7f;
+    margin-bottom: 1em;
+	overflow:hidden;
+}
+.h1-header {
+	float:right;
+	text-align:right;
+}	
+
 /* End Header */          
 
-#main-header {
-}
-/* End Main-header */          
 
 /* Start Nav */  
 nav {
+	float:left;
+	clear:both;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+}
+nav h3 {
+	display:none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+
+nav ul li {
+    float: left;
+}
+nav ul li {
+    border-right: 1px solid #bbb;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #0C3;
+	color:#F60;
+}
+.active {
+    background-color: #4CAF50;
+}
+.active a:hover {
+    background-color: #4CAF50;
+	color:#FFF;
+	cursor:default;
 }
 /* End Nav */          
 
 /* Start Main */
+
 main {
 }
-/* End Main */          
+main.main-article {
+	float: left;
+	width: 59%;
+	border-right: 1px solid #7f7f7f;
+	padding: 0 10px 0 25px;
+	margin-bottom: 2em;
+}
+/* End Main */
 
+section.pomelo-recipes {
+}
 /* Start Article */
 article {
+}
+article.article-section {
+	float: right;
+	clear: right;
+	width: 35%;
+	padding: 0 10px 0 10px;
+	margin-bottom: 0;
 }
 /* End Article */
 
 /* Start Section */
 section {
 }
+section.street-address {
+}
 /* End Section */
 
 
 /* Aside Section */
-aside {
+aside.factory-location {
 }
 /* End Aside Section */
 
@@ -71,14 +159,32 @@ address {
 
 /* Start Footer Section */
 footer {
+	float:none;
+	clear:both;
+	width: 100$;
+	border-top: 2px solid #7f7f7f;
+    padding: 2em;
+    clear: both;
+    overflow: auto;
 }
+
 #page-footer {
 }
 footer .to-top {
+	text-align:center;
 }
 footer .right-col {
+	float: right;
+	clear: right;
+	width: 49%;
+	text-align:right;
+	margin-bottom: 0;
 }
 footer .leftt-col {
+	float: left;
+	width: 49%;
+	padding: 0 10px 0 25px;
+	margin-bottom: 2em;
 }
 /* End Footer Section */
 
@@ -103,6 +209,9 @@ footer .leftt-col {
 .fan-datalist {
 }
 .fan-textarea {
+}
+div.form-submit-reset {
+	text-align:center;
 }
 .fan-submit {
 }
